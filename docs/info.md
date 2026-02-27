@@ -20,8 +20,3 @@ Explain how to use your project
 Measure the frequency on the first three outputs. It should be input frequency: clk/4, clk/2 and clock.
 To test the decoder change the last 2 inputs - the reading out of 4 last outputs should change. Can be tested with an oscilloscope, multimeter, or a resistor and LED diode.
 
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
-N/A
