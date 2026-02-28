@@ -10,12 +10,12 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 Explain how your project works:
 
-First part is simple frequency divider.
-The second part is a standard 2-to-4 decoder.
+Select the 'N' divide using 4 input bits, in binary. The output will be Clk_out = Input_clk / N.
 
 ## How to test
 Explain how to use your project:
 
-Measure the frequency on the first three outputs. It should be input frequency: clk/4, clk/2 and clock.
-To test the decoder change the last 2 inputs - the reading out of 4 last outputs should change. Can be tested with an oscilloscope, multimeter, or a resistor and LED diode.
+Apply a small freq. clock to the input.
+Change the input bits to see different frequencies on the output.
+Connect an LED diode with a slow clock, or best measure with an oscilloscope.
 
